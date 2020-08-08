@@ -1,0 +1,220 @@
+
+/*  *{
+	/* H1 tag sets initial margin top with some space 
+	margin: 0;
+	padding: 0;
+}
+*/
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+	color: red;	
+}
+
+a:active{
+	color: green;
+}
+
+/* a:visited{
+	color: yellow;
+} */
+
+body{
+	background-color: #f4f4f4;
+	/*color: orange;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	font: normal 16px Arial, Helvetica, sans-serif;
+
+	line-height: 1.6em;
+	 margin:0;
+}
+
+.container{
+	width: 80%; /*percentage = responsive*/
+	margin: auto;
+}
+
+.button{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+
+.button:hover{
+	background: red;
+	color: #fff;
+}
+
+.clr{
+	clear:both;
+}
+
+.box-1{
+	background-color: #333333;
+	color: #fff;
+
+	/* border-right: 5px red solid;
+	border-left: 5px yellow solid;
+	border-top: 5px orange solid;
+	border-bottom: 5px brown solid; */
+	border: 5px red solid;
+	/*border-width: 3px;*/
+	/*border-bottom-width: 10px;
+	border-bottom-style: dashed;*/
+	
+
+	/* padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px; */
+	padding: 50px;
+
+
+	margin-top: 20px;
+	margin: 20px 0;
+
+}
+
+
+.box-1 h1{
+	font-family: Tahoma;
+	font-style: italic;
+	font-weight: 800px;
+	text-decoration: underline;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	word-spacing: 1em;
+}
+
+.box-2{
+	border: 3px dotted #ccc;
+	padding: 20px;
+	margin: 20px 0;
+}
+
+
+.categories{
+	border: 1px #ccc solid;
+	padding:10px;
+	border-radius: 15px;
+
+}
+
+.categories h2{
+	text-align: center;
+}
+
+.categories ul{
+	padding:0;
+	padding-left: 20px;
+	list-style: square;
+	list-style: none;
+}
+
+.categories li{
+	padding-bottom: 6px;
+	border-bottom: dotted 1px #333;
+	/* list-style-image: url('../images/check.png'); */
+}
+
+.my-form{
+	padding: 20px;
+
+}
+
+.my-form .form-group{
+	padding-bottom: 15px;
+}
+
+.my-form label{
+	display: block; /*line breaks between the label and the text box(input)*/
+}
+
+
+.my-form input[type="text"],.my-form textarea{ /*this disregards the button because it is not of type text*/
+	padding: 8px;
+	width: 100%;
+}
+
+/*  .my-form input[type="submit"]{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+*/
+.block{
+	float: left;
+	width: 33.3%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#main-block{
+	float:left;
+	width:70%;
+	padding: 15px;
+	box-sizing: border-box;
+	margin-top:10px;
+}
+
+#sidebar{
+	float:right;
+	width:30%;
+	background-color: #333;
+	color: #fff;
+	padding: 15px;
+	box-sizing: border-box;
+	margin-top:10px;
+}
+.p-box{
+	width: 100%;
+	height: 500px;
+	border: 1px solid #000;
+	margin-top: 30px;
+	position: relative;
+	background-image: url('../images/coral.jpg');
+	background-position: 100px 200px;
+	/*background-repeat: no-repeat;*/
+	background-position: center top;
+}
+.p-box h1{
+	position: absolute;
+	top: 100px;
+	left: 200px;
+}
+.p-box h2{
+	position: absolute;
+	bottom: 40px;
+	right: 100px;
+}
+
+.fix-me{
+	position:fixed;
+	top: 400px; /* always going to stay 400 px from top of the window and not gonna move*/
+
+}
+.mylist li:last-child{
+	background: red;
+}
+/* pseudo-elements*/
+.mylist li:first-child{
+	background: blue;
+}
+.mylist li:nth-child(5){
+	background: yellow;
+}
+.mylist li:nth-child(even){
+	background: grey;
+}
+
+
+
